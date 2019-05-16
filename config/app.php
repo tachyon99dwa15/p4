@@ -1,6 +1,15 @@
 <?php
 
 return [
+    'githubUrl' => 'https://github.com/tachyon99dwa15/p4',
+    'nav' => [
+        // URL => Link label
+        'stocks/ViewExistingStocks' => 'View, Edit, Delete Existing Stock Trades',
+        'stocks/add' => 'Add a stock trade',
+
+     //   'stocks/delete' => 'Delete stock trade entry'
+
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -13,7 +22,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Stock Data System'),
 
     /*
     |--------------------------------------------------------------------------
